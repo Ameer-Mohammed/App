@@ -1,6 +1,6 @@
 'use strict';
 
-
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
